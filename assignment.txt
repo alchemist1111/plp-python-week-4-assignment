@@ -1,0 +1,27 @@
+Explanation:
+read_and_modify_file function:
+
+Opens the input file (input_filename) in read mode and reads its content.
+
+Modifies the content (in this case, converting the text to uppercase).
+
+Writes the modified content to the output file (output_filename).
+
+Error handling is in place to catch:
+
+FileNotFoundError if the input file doesn’t exist.
+
+IOError if there is an issue reading or writing the file.
+
+A generic Exception if any other unforeseen error occurs.
+
+main function:
+
+Prompts the user for the filenames.
+
+Calls the read_and_modify_file function to handle the file operations.
+
+Error Handling:
+The program handles errors gracefully by catching exceptions such as FileNotFoundError and IOError and printing appropriate error messages.
+
+Example Execution:
